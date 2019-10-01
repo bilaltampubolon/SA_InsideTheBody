@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Scenes/GaleryScane.unity
+- path: Assets/Scenes/Lambung.unity
   isLoaded: 1
   isActive: 1
