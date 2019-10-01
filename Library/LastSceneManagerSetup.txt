@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Buat Animasi.unity
+=======
+- path: Assets/Scenes/Scenes/lingkungan.unity
+>>>>>>> 6e927cd58bf019eba37dace95162504daa48237e
   isLoaded: 1
   isActive: 1
