@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Lambung.unity
+- path: Assets/Scenes/Scenes/ValidasiScene.unity
   isLoaded: 1
   isActive: 1
