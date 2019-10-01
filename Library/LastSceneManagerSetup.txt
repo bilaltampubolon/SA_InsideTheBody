@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Scenes/ValidasiScene.unity
+- path: Assets/Scenes/Buat Animasi.unity
   isLoaded: 1
   isActive: 1
