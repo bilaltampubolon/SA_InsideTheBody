@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3841146060675735139}
   - component: {fileID: 3841146060675735136}
   - component: {fileID: 3841146060675735137}
+  - component: {fileID: 1674010196}
   m_Layer: 0
   m_Name: BGlambung
   m_TagString: Untagged
@@ -99,3 +100,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &1674010196
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3841146060675735166}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: ddbdd510b6f0be745869601bc9f0ba60, type: 2}
+  m_Animations: []
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 1
+  m_CullingType: 0
