@@ -7,16 +7,52 @@ public class Botton : MonoBehaviour
 {
     public void Play()
     {
-        SceneManager.LoadScene("lingkungan");
+        SceneManager.LoadScene("PilihStartScene");
     }
-    public void Back()
+        public void Story()
+        {
+            SceneManager.LoadScene("StoryScene");
+        }
+        
+            public void Stage1()
+            {
+                SceneManager.LoadScene("KulitScene");
+            }
+        public void SideQuest()
+        {
+        SceneManager.LoadScene("SideQuestScene");
+        }
+
+    public void Option()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("OptionScene");
     }
-    public  void Quitbtn()
+
+    public void Galery()
+    {
+        SceneManager.LoadScene("GaleryScene");
+    }
+
+    public void Quit()
     {
         SceneManager.LoadScene("ValidationScene");
     }
+
+         public void No()
+         {
+             SceneManager.LoadScene("MenuScene");
+         }
+        public void Yes()
+         {
+             Debug.Log("Application closed");
+             Application.Quit();
+             if (Input.GetKeyUp(KeyCode.Escape))
+                {
+                    Debug.Log("Application closed");
+                    Application.Quit();
+                }
+         }
+
 
     public void Rematch()
     {
@@ -31,18 +67,8 @@ public class Botton : MonoBehaviour
             Application.Quit();
         }
     }
-    public void Galery()
-    {
-        SceneManager.LoadScene("GaleryScene");
-    }
-    public void Yesbtn()
-    {
-        Debug.Log("Application closed");
-        Application.Quit();
-        if (Input.GetKeyUp(KeyCode.Escape))
-        {
-            Debug.Log("Application closed");
-            Application.Quit();
-        }
-    }
+   
+    
+    
+   
 }

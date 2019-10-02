@@ -4,5 +4,35 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scenes/LoadingScene.unity
+    guid: 7dcee519c8b805b40b994702a96b8d8d
+  - enabled: 1
+    path: Assets/Scenes/Scenes/MenuScene.unity
+    guid: 3b38a7010ff195247808be373301d7a9
+  - enabled: 1
+    path: Assets/Scenes/Scenes/KulitScene.unity
+    guid: 84de5f80244401241892cb91210445f5
+  - enabled: 1
+    path: Assets/Scenes/Scenes/GaleryScene.unity
+    guid: 82f7d8ba3804633428e192d6db9930c1
+  - enabled: 1
+    path: Assets/Scenes/Scenes/LingkunganScene.unity
+    guid: f07a4c7e402aa2d4cabc141f9304502c
+  - enabled: 1
+    path: Assets/Scenes/Scenes/BrainScene.unity
+    guid: 56d39cf909198d24cabba8ecc23789ec
+  - enabled: 1
+    path: Assets/Scenes/Scenes/ValidationScene.unity
+    guid: 8b3299cb31bd6cd4f8f93890b655ab2f
+  - enabled: 1
+    path: Assets/Scenes/Scenes/PilihStartScene.unity
+    guid: 008b0bdc312f9ab4db15fb43561dd0cf
+  - enabled: 1
+    path: Assets/Scenes/Scenes/OptionScene.unity
+    guid: 0e684b3652caf144191d0603c7663b5c
+  - enabled: 1
+    path: Assets/Scenes/Scenes/StoryScene.unity
+    guid: bbee59ba25e4d824baaf9f2552ea2968
   m_configObjects: {}

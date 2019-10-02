@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Scenes/GaleryScene.unity
+- path: Assets/Scenes/Scenes/BrainScene.unity
   isLoaded: 1
   isActive: 1
