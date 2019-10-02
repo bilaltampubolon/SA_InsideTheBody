@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - peluru1
+  - peluru2
+  - peluru3
+  - enemy3
+  - enemy2
+  - player
   layers:
   - Default
   - TransparentFX

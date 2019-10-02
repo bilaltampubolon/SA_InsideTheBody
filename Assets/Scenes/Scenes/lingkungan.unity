@@ -205,7 +205,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -16.149452, y: 1.2921758}
+  m_Offset: {x: -16.149452, y: -1.2226558}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -216,7 +216,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 132.48093, y: 5.9299917}
+  m_Size: {x: 132.48093, y: 0.9003285}
   m_EdgeRadius: 0
 --- !u!1 &375157792
 GameObject:
@@ -885,6 +885,7 @@ GameObject:
   - component: {fileID: 832135345}
   - component: {fileID: 832135344}
   - component: {fileID: 832135343}
+  - component: {fileID: 832135348}
   m_Layer: 0
   m_Name: Brian
   m_TagString: Untagged
@@ -950,7 +951,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.88, y: 10.82}
+    oldSize: {x: 5.11, y: 11.98}
     newSize: {x: 16.64, y: 19.63}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -996,7 +997,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 28261c3c2dab15a469f130a67542d95c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fea375d4a366d5e4b91993e6a735943d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1015,12 +1016,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 832135342}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -0.99, z: 0}
+  m_LocalPosition: {x: -1.64, y: -3.1, z: 0}
   m_LocalScale: {x: 0.47106507, y: 0.22939289, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &832135348
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832135342}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ced5146062f5740458b610c21b6d5ddf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &870038942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1604,7 +1624,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1317371150}
   - component: {fileID: 1317371149}
-  - component: {fileID: 1317371151}
   m_Layer: 0
   m_Name: Jalan Lingkungan
   m_TagString: Untagged
@@ -1674,32 +1693,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1317371151
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317371148}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -23.939663, y: 0.9901886}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 33.329998, y: 7.5799994}
-    newSize: {x: 33.329998, y: 7.5799994}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 81.20937, y: 5.5996227}
-  m_EdgeRadius: 0
 --- !u!1 &1358510136
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,7 +2087,7 @@ GameObject:
   - component: {fileID: 1668699851}
   - component: {fileID: 1668699850}
   m_Layer: 0
-  m_Name: Roby1
+  m_Name: melati
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2113,7 +2106,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.8247824, y: 0}
+  m_Offset: {x: -0.5706787, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2124,7 +2117,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 26.289568, y: 19.63}
+  m_Size: {x: 17.78136, y: 19.63}
   m_EdgeRadius: 0
 --- !u!212 &1668699851
 SpriteRenderer:
@@ -2777,7 +2770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10499, y: -580}
+  m_AnchoredPosition: {x: 15694, y: -580}
   m_SizeDelta: {x: 669.2, y: 232.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2111382560
