@@ -11,7 +11,7 @@ public class Detector : MonoBehaviour
     public AudioClip Salah;
     private AudioSource MediaPlayerBenar;
     private AudioSource MediaPlayerSalah;
-    public Text textScore;
+   
 
     void Start()
     {
@@ -42,7 +42,17 @@ public class Detector : MonoBehaviour
             Destroy(collision.gameObject);
             MediaPlayerSalah.Play();
         }
-        if(HP <= 0)
+        else if (collision.tag.Equals("peluru2"))
+        {
+            Destroy(collision.gameObject);
+            MediaPlayerSalah.Play();
+        }
+        else if (collision.tag.Equals("peluru3"))
+        {
+            Destroy(collision.gameObject);
+            MediaPlayerSalah.Play();
+        }
+        if (HP <= 0)
         {
             Destroy(this.gameObject);
         }

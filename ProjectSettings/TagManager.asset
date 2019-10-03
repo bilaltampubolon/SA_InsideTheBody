@@ -10,6 +10,7 @@ TagManager:
   - peluru2
   - player
   - IEcoli
+  - Score
   layers:
   - Default
   - TransparentFX
