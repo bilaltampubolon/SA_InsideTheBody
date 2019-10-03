@@ -37,10 +37,8 @@ public class Detector : MonoBehaviour
             MediaPlayerBenar.Play();
             HP -= 1;
         }
-        else
+        else if (collision.tag.Equals("peluru1"))
         {
-            //Score.score -= 5;
-            // textScore.text = Score.score.ToString();
             Destroy(collision.gameObject);
             MediaPlayerSalah.Play();
         }
