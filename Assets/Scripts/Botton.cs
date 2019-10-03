@@ -68,7 +68,20 @@ public class Botton : MonoBehaviour
         }
     }
    
-    
-    
-   
+    public void LambungScene()
+    {
+        SceneManager.LoadScene("LambungScene");
+    }
+
+    public void OtakScene()
+    {
+        SceneManager.LoadScene("BrainScene");
+    }
+    public void DialogScene()
+    {
+        SceneManager.LoadScene("Dialog");
+    }
+
+
+
 }
