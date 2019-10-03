@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sampah : MonoBehaviour
+public class MoveEnemy : MonoBehaviour
 {
     public float jeda = 0.8f;
     float timer;
