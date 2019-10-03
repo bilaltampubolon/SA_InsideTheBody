@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
     }
+
     void TakeDamage(int damage)
     {
         HP -= damage;
@@ -25,5 +26,14 @@ public class Enemy : MonoBehaviour
             anim.SetBool("IsDie", true);
             Destroy(this.gameObject, 2);
         }
+    }
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("player"))
+        {
+            print("Players is hits");
+            col.gameObject.SendMessage("DamageTake", 1);
+        }
+        Destroy(this.gameObject);
     }
 }
